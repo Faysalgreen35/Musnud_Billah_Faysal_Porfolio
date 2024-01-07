@@ -69,9 +69,9 @@ nav a{
 /* header related styles */
 .header{
     background-color: rgb(247, 238, 235);
-    background-image: url(../images/bg-main.png);
+    background-image: url(../images/bg-main.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner{
@@ -197,6 +197,7 @@ footer{
     gap: 100px;
     background-color:#fff8f3;
     margin-top: 100px;
+ 
 }
 
 .footer-column{
